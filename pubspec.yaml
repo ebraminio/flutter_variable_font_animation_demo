@@ -1,0 +1,78 @@
+name: variable_font_animation_demo
+description: Variable Font Animation
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: AniconsGX
+      fonts:
+        - asset: fonts/AniconsGX.ttf
+    - family: AniconsColorGX
+      fonts:
+        - asset: fonts/AniconsColorGX.ttf
+    - family: a-circle
+      fonts:
+        - asset: fonts/lottie2vf-examples/a-circle.ttf
+    - family: bounce-gradient
+      fonts:
+        - asset: fonts/lottie2vf-examples/bounce-gradient.ttf
+    - family: cat-simple
+      fonts:
+        - asset: fonts/lottie2vf-examples/cat-simple.ttf
+    - family: cat
+      fonts:
+        - asset: fonts/lottie2vf-examples/cat.ttf
+    - family: cigratte-man
+      fonts:
+        - asset: fonts/lottie2vf-examples/cigratte-man.ttf
+    - family: crying
+      fonts:
+        - asset: fonts/lottie2vf-examples/crying.ttf
+    - family: fire
+      fonts:
+        - asset: fonts/lottie2vf-examples/fire.ttf
+    - family: gear
+      fonts:
+        - asset: fonts/lottie2vf-examples/gear.ttf
+    - family: gear2
+      fonts:
+        - asset: fonts/lottie2vf-examples/gear2.ttf
+    - family: legs
+      fonts:
+        - asset: fonts/lottie2vf-examples/legs.ttf
+    - family: rabbit
+      fonts:
+        - asset: fonts/lottie2vf-examples/rabbit.ttf
+    - family: rabbit2
+      fonts:
+        - asset: fonts/lottie2vf-examples/rabbit2.ttf
+    - family: square
+      fonts:
+        - asset: fonts/lottie2vf-examples/square.ttf
+    - family: sweat-grin
+      fonts:
+        - asset: fonts/lottie2vf-examples/sweat-grin.ttf
+    - family: sweat
+      fonts:
+        - asset: fonts/lottie2vf-examples/sweat.ttf
+    - family: tongue
+      fonts:
+        - asset: fonts/lottie2vf-examples/tongue.ttf
+    - family: wumpus-hi
+      fonts:
+        - asset: fonts/lottie2vf-examples/wumpus-hi.ttf
